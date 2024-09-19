@@ -35,7 +35,8 @@ Below is a sequence diagram showing the execution flow
 
 
 
-![image](https://github.com/user-attachments/assets/6e2c0fd8-09b4-45d7-8285-99a3553e885d)
+
+![image](/artifacts/Prompt.png)
 
 
 
