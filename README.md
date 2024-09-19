@@ -11,7 +11,7 @@ Typically if you see, our Supply Chain Security features kicks in once the code 
 From a design approach perspective, I am using the concept of Service Chaining to tie up differetn service calls. Here you will find a core application written in Java (SpringBoot) where we have the actual logic of calling the OpeAI service and GitHub API's to extract the vulnerability information for a user input 3rd party package. Since the heavy lifting is done by the individual microservices (in this case the dependabot vulnerability details extractor), in the future, if we want to add more capabilities areound GHAS to the Copilot Extension, one can write business logic in the technology of their choice, and hook on to the Node interceptor module. 
 
 
-![image](https://github.com/user-attachments/assets/418705f6-43c1-4cc5-8cc1-c2a6906889ab)
+![image](/artifacts/Achitecture-Blueprint.png)
 
 
 **Implemenation Details:**
@@ -28,7 +28,7 @@ The microservice then responds back to the node interceptor with the markdown ta
 Below is a sequence diagram showing the execution flow
 
 
-![image](https://github.com/user-attachments/assets/4b728e8b-5c10-4006-8884-3f4411dd0ef5)
+![image](/artifacts/SequenceFlow.png)
 
 
 **The Request to & Response from the Copilot Extension:**
