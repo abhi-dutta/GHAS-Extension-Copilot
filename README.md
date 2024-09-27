@@ -1,6 +1,5 @@
 # GHAS-Copilot-Extension
 
-This repository contains the code for the <b>GHAS Copilot Extension</b> which is a [GitHub Copilot extension](https://github.com/github/copilot-partners/blob/main/docs/README.md) developed in the scope of a Copilot extension hackathon run by the Field Services Team
 
 **Intent:**
 
